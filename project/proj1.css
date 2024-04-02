@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+
+}
+
+body::before {
+    background: url("https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center/cover;
+    background-size: cover;
+    position: fixed;
+    content: "";
+
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    z-index: -1;
+
+}
+
+
+
+.container {
+
+    width: 100vw;
+    font-family: "Balthazar", serif;
+    text-transform: uppercase;
+    background-color: rgba(128, 128, 128, 0.627);
+    height: 3vh;
+    padding: 22px 6px
+}
+
+.ul1 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1rem;
+
+}
+
+.ul1 li {
+    list-style: none;
+}
+
+
+.ul1 a:hover {
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.ul1 a {
+    text-decoration: none;
+    color: black;
+    padding: 1px 28px;
+}
+
+.heading {
+    margin: 42px 211PX;
+    line-height: 72px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.heading1 {
+    font-size: 4rem;
+    font-weight: 100;
+
+}
+
+.heading2 {
+    font-size: 3.4rem;
+    margin-left: 60px;
+    font-weight: lighter;
+}
+
+
+main {
+
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    align-content: flex-start;
+}
+
+.box {
+    height: 440px;
+    width: 200px;
+    box-shadow: 4px 3px 20px black;
+    margin: 29px 47px;
+    border-radius: 10px;
+
+
+}
+
+.box:hover {
+    box-shadow: 6px 11px 20px black;
+
+}
+
+.box img {
+    box-sizing: border-box;
+    height: 150px;
+    width: 90%;
+    margin: 12px 11px;
+    float: left;
+    border-radius: 10px;
+}
+
+.para {
+    margin-left: 9px;
+    font-size: 1.2rem;
+
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.621);
+
+}
+
+.ul3 {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    margin: 76px 71px;
+    font-size: 2rem;
+
+}
+
+.ul3 li {
+    list-style: none;
+
+}
+
+.ul3 a {
+    color: black;
+    position: fixed;
+    bottom: 0;
+}
+
+.logo {
+    margin: 15px 1px;
+
+}
+
+.logo:hover {
+    margin: 10px;
+
+}
